@@ -155,6 +155,20 @@ main section {
   color: var(--link);
 }
 
+.nitro {
+  display: inline-block;
+  margin-left: 6px;
+  padding: 2px 6px;
+  font-size: 0.75em;
+  font-weight: 600;
+  color: #fff;
+  background: linear-gradient(90deg, #5865F2 0%, #EB459E 100%);
+  border-radius: 6px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  vertical-align: middle;
+}
+
 /* Mobile responsive */
 @media (max-width: 900px) {
   .layout {
